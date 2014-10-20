@@ -61,6 +61,7 @@ a:focus {
     font-weight: 400;
 }
 
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -109,6 +110,8 @@ a:focus {
     outline: 0;
     background-color: rgba(255,255,255,.3);
 }
+
+
 
 @media(min-width:767px) {
     .navbar {
@@ -184,6 +187,8 @@ a:focus {
 
 
 .btn-circle {
+    position: relative;
+    top: 150px;
     width: 70px;
     height: 70px;
     margin-top: 15px;
@@ -260,6 +265,10 @@ a:focus {
 
 @media(max-width: 767px) {
     .btn-circle {
+        display:none;
+    }
+
+    .navbar {
         display:none;
     }
 }
@@ -343,7 +352,7 @@ ul.banner-social-buttons {
 
 @media(max-width:767px) {
     ul.banner-social-buttons li {
-        margin-top: 10px;
+        margin-top: 20px;
         margin-bottom: 20px;
         padding: 0;
     }
